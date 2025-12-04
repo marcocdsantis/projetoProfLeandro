@@ -1,7 +1,7 @@
 :root {
-  --primary: #0d6efd;
-  --primary-soft: #e7f0ff;
-  --accent: #6610f2;
+  --primary: #fd0d0d;
+  --primary-soft: #ffe7e7;
+  --accent: #f21010;
   --bg-body: #f5f5f7;
   --text-main: #1f2933;
   --card-radius: 0.9rem;
@@ -57,7 +57,7 @@ body {
 /* ---------- HERO / SOBRE ---------- */
 .hero-section {
   margin-top: 56px;
-  background: radial-gradient(circle at top left, var(--accent), #020617);
+  background: radial-gradient(circle at top left, var(--accent), #170202);
   color: #f9fafb;
 }
 
@@ -160,7 +160,7 @@ body {
   border-radius: 999px;
   background: var(--primary);
   border: 2px solid #ffffff;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.35);
+  box-shadow: 0 0 0 3px rgba(235, 37, 37, 0.35);
 }
 
 /* ---------- CARDS ---------- */
@@ -174,7 +174,7 @@ body {
 .card:hover {
   transform: translateY(-3px);
   box-shadow: 0 0.9rem 1.8rem rgba(15, 23, 42, 0.10);
-  border-color: rgba(37, 99, 235, 0.35);
+  border-color: rgba(235, 37, 37, 0.35);
 }
 
 .bg-success-soft {
